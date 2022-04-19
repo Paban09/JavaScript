@@ -19,5 +19,5 @@ console.log(lastName.length);
 //to upper or lowerCase a string
 
 let newLastName=lastName.toUpperCase();
-console.log(newLastName)
+console.log(newLastName);
 
