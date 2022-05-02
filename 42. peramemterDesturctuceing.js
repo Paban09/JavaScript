@@ -6,10 +6,17 @@ const person={
 
 };
 
-function printDetails(obj){
-    console.log(obj.name);
-    console.log(obj.gender);
+// function printDetails(obj){
+//     console.log(obj.name);
+//     console.log(obj.gender);
+
+// };
+
+function printDetails({name,gender}){
+    console.log(name);
+    console.log(gender);
 
 };
+
 
 printDetails(person);
