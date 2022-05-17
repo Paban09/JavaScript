@@ -6,4 +6,4 @@ hello();
 
 const hello=()=>{
     console.log("Hello Everyone");
-};
+}; 
