@@ -3,13 +3,11 @@ const product=[
     {proId: 2, proName:"chocolate", proPrice:280 },
     {proId: 3, proName:"juice", proPrice:35 },
     {proId: 4, proName:"Coke", proPrice:25 },
-    {proId: 5, proName:"Fanta", proPrice: 50 }
+    {proId: 5, proName:"Fanta", proPrice: 50 },
+    {proId: 6, proName:"Dairy Milk", proPrice: 500 }
 
 ];
 
-const lowToHigh=product.slice(0).sort((a,b)=>{
-    return a.proPrice-b.proPrice;
-});
+const ans = product.some((products)=>products.proPrice>300);
 
-console.log(product);
-console.log(lowToHigh);
+console.log(ans);

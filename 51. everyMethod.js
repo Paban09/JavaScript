@@ -7,9 +7,6 @@ const product=[
 
 ];
 
-const lowToHigh=product.slice(0).sort((a,b)=>{
-    return a.proPrice-b.proPrice;
-});
+const ans = product.every((products)=>products.proPrice<300);
 
-console.log(product);
-console.log(lowToHigh);
+console.log(ans);
