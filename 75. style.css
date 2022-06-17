@@ -83,6 +83,11 @@ a{
     margin-top: 1rem;
 }
 
+.bg-dark{
+    background: black;
+    color:aliceblue
+}
+
 .form-todo input{
     min-height:100%
 }
@@ -100,6 +105,21 @@ a{
     background: rgb(75,81,103);
     color:aliceblue;
     font-weight: bold;
+}
+
+.todo-list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+
+.todo-list li{
+    padding: 0.7rem;
+    background-color: rgb(71, 67, 67);
+    color: skyblue;
+    margin-top: 1rem;
+    text-transform: capitalize;
 }
 
 
