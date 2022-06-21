@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./99. projectTodoList.css">
+
+    <script src="./99. projectTodoList.js" defer></script>
+
+
+    <title>Project Todo List</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="logo">Website</h1>
+            <ul class="nav-items">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#todo">Todo</a></li>
+                <li class="nav-item"><a href="#signup">Signup</a></li>
+            </ul>
+        </nav>
+
+        <div class="headline">
+            <h2 id="main-heading">Manage Your Tasks <span style="display: none;">By Own</span> </h2>
+            <button class="btn btn-headline" id="btn-headline">Learn More</button>
+        </div>
+    </header>
+
+    <section class="section-todo container">
+        <h2>What is your plan for today? </h2>
+
+        <!-- todo form -->
+        <form class="form-todo">
+            <input type="text" name="addTodo" id="addTodo" placeholder="Add Todo">
+            <input type="submit" class="btn" value="Add Todo">
+        </form>
+
+        <ul class="todo-list">
+            <li>
+                <span class="text"> Do this do that</span>
+                <div>
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+    
+    <footer>
+        <div class="footer-div">
+            <h4>
+                Todo project
+            </h4>
+        </div>
+    </footer>
+</body>
+
+</html>
